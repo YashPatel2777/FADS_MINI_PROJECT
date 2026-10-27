@@ -1,0 +1,33 @@
+company,label_year,prob_distressed_t1,pred_distressed_t1,distressed_t1,outcome
+AMD,2018,0.3451579162715263,0,1.0,missed
+Intel,2018,0.1390139983070697,0,0.0,correct (healthy)
+Wolfspeed,2018,0.7810499999999999,1,0.0,false alarm
+Nvidia,2018,0.1500793328725161,0,0.0,correct (healthy)
+AMD,2019,0.3214871621425427,0,0.0,correct (healthy)
+Intel,2019,0.167696757614067,0,0.0,correct (healthy)
+Wolfspeed,2019,0.7613009908153381,1,1.0,correct warning
+Nvidia,2019,0.0959005085883492,0,0.0,correct (healthy)
+AMD,2020,0.1139143824695454,0,0.0,correct (healthy)
+Intel,2020,0.183984024714286,0,0.0,correct (healthy)
+Wolfspeed,2020,0.7285094577464833,1,1.0,correct warning
+Nvidia,2020,0.0651623648677972,0,0.0,correct (healthy)
+AMD,2021,0.0719663620616571,0,0.0,correct (healthy)
+Intel,2021,0.1309110501652673,0,0.0,correct (healthy)
+Wolfspeed,2021,0.9422842341690454,1,1.0,correct warning
+Nvidia,2021,0.1235417191387438,0,0.0,correct (healthy)
+AMD,2022,0.1071413961156554,0,0.0,correct (healthy)
+Intel,2022,0.2778811919156159,0,1.0,missed
+Wolfspeed,2022,0.8310329001255988,1,1.0,correct warning
+Nvidia,2022,0.1732640051291092,0,0.0,correct (healthy)
+AMD,2023,0.1421956405406693,0,0.0,correct (healthy)
+Intel,2023,0.6667125905997147,1,1.0,correct warning
+Wolfspeed,2023,0.8793636753088293,1,1.0,correct warning
+Nvidia,2023,0.1142635600467766,0,0.0,correct (healthy)
+AMD,2024,0.1004590842267615,0,0.0,correct (healthy)
+Intel,2024,0.8502869586563161,1,1.0,correct warning
+Wolfspeed,2024,0.8440038459992684,1,1.0,correct warning
+Nvidia,2024,0.0905512486263427,0,0.0,correct (healthy)
+AMD,2025,0.0552449123754545,0,,forecast (t+1 not yet known)
+Intel,2025,0.732808351727735,1,,forecast (t+1 not yet known)
+Wolfspeed,2025,0.8850689656530076,1,,forecast (t+1 not yet known)
+Nvidia,2025,0.0916282396998393,0,,forecast (t+1 not yet known)

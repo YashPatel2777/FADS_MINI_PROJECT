@@ -50,9 +50,10 @@ def _get(url, user_agent):
 
 
 def download_statements(cik, adsh, out_dir, user_agent):
-    """Download FilingSummary.xml plus the balance sheet and income statement R pages.
+    """Download FilingSummary.xml plus the balance sheet, income statement and cash flow R pages.
 
-    Returns {"balance": path, "income": path}. Files already on disk are reused.
+    Returns {"balance": path, "income": path, "cash_flow": path}. Files already
+    on disk are reused.
     """
     folder = Path(out_dir) / adsh
     folder.mkdir(parents=True, exist_ok=True)
@@ -76,6 +77,8 @@ def download_statements(cik, adsh, out_dir, user_agent):
             continue
         if "balance sheet" in n or "financial position" in n:
             found.setdefault("balance", html.text.strip())
+        elif "cash flow" in n:
+            found.setdefault("cash_flow", html.text.strip())
         elif any(w in n for w in ["operations", "income", "earnings"]) and "comprehensive" not in n:
             found.setdefault("income", html.text.strip())
 
@@ -150,22 +153,30 @@ def parse_statement(path):
     return pd.DataFrame(rows), header, to_millions
 
 
-def check_filing(row, statement_paths):
+def check_filing(row, statement_paths, items=CHECK_ITEMS, absolute=False):
     """Compare one company-year's computed items with its 10-K statements.
 
     A value matches when a statement line is within half a reported unit
     (rounding), e.g. 0.5 for statements in millions. Returns one row per item.
+    absolute=True compares sizes only: cash flow statements show payments
+    such as capex in brackets (negative), while the XBRL payment tags are
+    positive. Items that are blank in `row` are skipped.
     """
     parsed = {kind: parse_statement(p) for kind, p in statement_paths.items()}
     out = []
-    for item, (kind, words) in CHECK_ITEMS.items():
+    for item, (kind, words) in items.items():
         ours = row[item]
+        if pd.isna(ours):
+            continue
         rec = {"item": item, "computed_musd": ours, "statement": kind}
         if kind not in parsed:
             rec.update(status="statement not found")
             out.append(rec)
             continue
         lines, _, to_millions = parsed[kind]
+        if absolute:
+            lines = lines.assign(value_musd=lines["value_musd"].abs())
+            ours = abs(ours)
         tol = 0.5 * to_millions + 1e-9
         hit = lines[(lines["value_musd"] - ours).abs() <= tol]
         # Several lines can share a value (total assets = total liabilities

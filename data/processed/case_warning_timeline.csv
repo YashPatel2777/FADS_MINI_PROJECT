@@ -1,0 +1,5 @@
+company,Liquidity: current ratio < 1,Leverage: debt ratio > 0.6,Coverage: interest coverage < 1.5,Margin: operating margin < 0,Profit: net loss,First Z' < 1.23
+AMD,,2015.0,2015.0,2015.0,2015.0,2015.0
+Intel,,,2023.0,2024.0,2024.0,2023.0
+Nvidia,,,,,,
+Wolfspeed,2025.0,2023.0,2015.0,2015.0,2015.0,2020.0

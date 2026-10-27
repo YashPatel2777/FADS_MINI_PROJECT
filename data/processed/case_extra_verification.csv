@@ -1,0 +1,33 @@
+company,label_year,item,computed_musd,statement,status,tenk_line,tenk_value_musd,filing
+AMD,2017,capex,113.0,cash_flow,match,"Purchases of property, plant and equipment",113.0,https://www.sec.gov/Archives/edgar/data/2488/000000248818000042/
+AMD,2017,goodwill,289.0,balance,match,Goodwill,289.0,https://www.sec.gov/Archives/edgar/data/2488/000000248818000042/
+AMD,2022,capex,450.0,cash_flow,match,Purchases of property and equipment,450.0,https://www.sec.gov/Archives/edgar/data/2488/000000248823000047/
+AMD,2022,buybacks,3702.0,cash_flow,match,Repurchases of common stock,3702.0,https://www.sec.gov/Archives/edgar/data/2488/000000248823000047/
+AMD,2022,goodwill,24177.0,balance,match,Goodwill,24177.0,https://www.sec.gov/Archives/edgar/data/2488/000000248823000047/
+AMD,2024,capex,636.0,cash_flow,match,Purchases of property and equipment,636.0,https://www.sec.gov/Archives/edgar/data/2488/000000248825000012/
+AMD,2024,buybacks,862.0,cash_flow,match,Repurchases of common stock,862.0,https://www.sec.gov/Archives/edgar/data/2488/000000248825000012/
+AMD,2024,goodwill,24839.0,balance,match,Goodwill,24839.0,https://www.sec.gov/Archives/edgar/data/2488/000000248825000012/
+Intel,2017,capex,11778.0,cash_flow,match,"Additions to property, plant and equipment",11778.0,https://www.sec.gov/Archives/edgar/data/50863/000005086318000007/
+Intel,2017,buybacks,3615.0,cash_flow,match,Repurchase of common stock,3615.0,https://www.sec.gov/Archives/edgar/data/50863/000005086318000007/
+Intel,2017,goodwill,24389.0,balance,match,Goodwill,24389.0,https://www.sec.gov/Archives/edgar/data/50863/000005086318000007/
+Intel,2022,capex,24844.0,cash_flow,match,"Additions to property, plant and equipment",24844.0,https://www.sec.gov/Archives/edgar/data/50863/000005086323000006/
+Intel,2022,buybacks,0.0,cash_flow,match,Repurchase of common stock,0.0,https://www.sec.gov/Archives/edgar/data/50863/000005086323000006/
+Intel,2022,goodwill,27591.0,balance,match,Goodwill,27591.0,https://www.sec.gov/Archives/edgar/data/50863/000005086323000006/
+Intel,2024,capex,23944.0,cash_flow,match,"Additions to property, plant, and equipment",23944.0,https://www.sec.gov/Archives/edgar/data/50863/000005086325000009/
+Intel,2024,goodwill,24693.0,balance,match,Goodwill,24693.0,https://www.sec.gov/Archives/edgar/data/50863/000005086325000009/
+Nvidia,2017,capex,593.0,cash_flow,match,Purchases of property and equipment and intangible assets,593.0,https://www.sec.gov/Archives/edgar/data/1045810/000104581018000010/
+Nvidia,2017,buybacks,909.0,cash_flow,match,Payments related to repurchases of common stock,909.0,https://www.sec.gov/Archives/edgar/data/1045810/000104581018000010/
+Nvidia,2017,goodwill,618.0,balance,match,Goodwill,618.0,https://www.sec.gov/Archives/edgar/data/1045810/000104581018000010/
+Nvidia,2022,capex,1833.0,cash_flow,match,Purchases related to property and equipment and intangible assets,1833.0,https://www.sec.gov/Archives/edgar/data/1045810/000104581023000017/
+Nvidia,2022,buybacks,10039.0,cash_flow,match,Payments related to repurchases of common stock,10039.0,https://www.sec.gov/Archives/edgar/data/1045810/000104581023000017/
+Nvidia,2022,goodwill,4372.0,balance,match,Goodwill,4372.0,https://www.sec.gov/Archives/edgar/data/1045810/000104581023000017/
+Nvidia,2024,capex,3236.0,cash_flow,match,Purchases related to property and equipment and intangible assets,3236.0,https://www.sec.gov/Archives/edgar/data/1045810/000104581025000023/
+Nvidia,2024,buybacks,33706.0,cash_flow,match,Payments related to repurchases of common stock,33706.0,https://www.sec.gov/Archives/edgar/data/1045810/000104581025000023/
+Nvidia,2024,goodwill,5188.0,balance,match,Goodwill,5188.0,https://www.sec.gov/Archives/edgar/data/1045810/000104581025000023/
+Wolfspeed,2017,capex,86.928,cash_flow,match,Purchases of property and equipment,86.928,https://www.sec.gov/Archives/edgar/data/895419/000089541917000055/
+Wolfspeed,2017,buybacks,104.017,cash_flow,match,Repurchases of common stock,104.017,https://www.sec.gov/Archives/edgar/data/895419/000089541917000055/
+Wolfspeed,2017,goodwill,618.828,balance,match,Goodwill,618.828,https://www.sec.gov/Archives/edgar/data/895419/000089541917000055/
+Wolfspeed,2022,capex,644.9,cash_flow,match,Purchases of property and equipment,644.9,https://www.sec.gov/Archives/edgar/data/895419/000089541922000055/
+Wolfspeed,2022,goodwill,359.2,balance,match,Goodwill,359.2,https://www.sec.gov/Archives/edgar/data/895419/000089541922000055/
+Wolfspeed,2024,capex,2274.0,cash_flow,match,Purchases of property and equipment,2274.0,https://www.sec.gov/Archives/edgar/data/895419/000089541924000062/
+Wolfspeed,2024,goodwill,359.2,balance,match,Goodwill,359.2,https://www.sec.gov/Archives/edgar/data/895419/000089541924000062/

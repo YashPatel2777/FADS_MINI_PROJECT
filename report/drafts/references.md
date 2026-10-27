@@ -61,3 +61,14 @@ No new external sources; Phase 4 uses references 6 and 11 to 14 for the Z' model
 24. Spearman, C. (1904). The proof and measurement of association between two things. *American Journal of Psychology*, 15. **Verify**. Rank correlation used in Figure 9.
 
 Note: the company colours were checked for colour-blind readability with the palette validator included in the Claude Code "dataviz" guidance; this is a tool used during the work, not a published source.
+
+## Phase 7 additions (dashboard)
+
+25. Microsoft. *Power BI Desktop* (software, free download from the Microsoft Store). https://www.microsoft.com/power-platform/products/power-bi/desktop. Accessed 2026-10-28. Used to build the four-page dashboard (`dashboard/SemiFin.pbix`) from the exported CSVs.
+
+## Phase 8 additions (case studies)
+
+26. Wolfspeed, Inc. (2025). *Form 10-K for the fiscal year ended June 29, 2025*, Note 2 "Basis of Presentation and Summary of Significant Accounting Policies" (R10) and "Subsequent Events" (R25). SEC EDGAR, accession 0000895419-25-000110. https://www.sec.gov/Archives/edgar/data/895419/000089541925000110/R10.htm. Accessed 2026-10-28. Source for the Chapter 11 petition date (30 June 2025) and the presentation of borrowings as current.
+27. Wolfspeed, Inc. (2026). *Form 10-K for the fiscal year ended June 28, 2026*, basis of presentation (R11), "Emergence from Voluntary Reorganization under Chapter 11" (R12) and "Fresh Start Accounting" (R13). SEC EDGAR, accession 0000895419-26-000054. https://www.sec.gov/Archives/edgar/data/895419/000089541926000054/R11.htm. Accessed 2026-10-28. Source for the emergence date (29 September 2025) and fresh-start accounting.
+28. Cash flow statements and balance sheets of the Nvidia, AMD, Intel and Wolfspeed 10-K filings for label years 2017, 2022 and 2024 (EDGAR rendered statements). Filing links are listed in `data/processed/case_extra_verification.csv`. Accessed 2026-10-28. Used to verify capex, buybacks and goodwill (32 of 32 values match).
+29. DuPont analysis (ROE = net margin x asset turnover x equity multiplier): standard textbook identity, e.g. Brealey, R. A., Myers, S. C. and Allen, F. *Principles of Corporate Finance* (McGraw-Hill), chapter on financial analysis. **Verify** edition and chapter before citing. Used to test whether Nvidia's ROE reflects profit or a thin equity base.
