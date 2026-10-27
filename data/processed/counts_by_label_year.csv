@@ -1,0 +1,17 @@
+label_year,companies,filings,form_10K,form_10KA,companies_with_multiple_filings,coverage,below_30_companies
+2011,1,1,1,0,0,partial (edge of download),True
+2012,1,1,1,0,0,partial (edge of download),True
+2013,4,4,2,2,0,partial (edge of download),True
+2014,114,116,114,2,2,complete,False
+2015,100,102,100,2,2,complete,False
+2016,90,93,88,5,3,complete,False
+2017,91,92,91,1,1,complete,False
+2018,89,91,89,2,2,complete,False
+2019,87,90,87,3,3,complete,False
+2020,86,92,85,7,5,complete,False
+2021,92,95,92,3,3,complete,False
+2022,88,91,88,3,3,complete,False
+2023,83,84,83,1,1,complete,False
+2024,85,85,85,0,0,complete,False
+2025,82,83,82,1,1,complete,False
+2026,8,8,8,0,0,partial (edge of download),True
