@@ -2,8 +2,6 @@
 
 Financial ratio analysis and distress prediction for U.S. semiconductor companies using SEC filing data, with Nvidia, AMD, Intel and Wolfspeed as case studies.
 
-Mini project for Financial Analysis and Decision Science (FADS), DJ Sanghvi College of Engineering, Mumbai.
-
 > Work in progress.
 
 ## What this project does
