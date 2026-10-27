@@ -4766,7 +4766,7 @@ cik_year,cik,label_year,ratio_code,value,ratio,ratio_order,unit
 890394_2022,890394,2022,interest_coverage,-2019.5,Interest coverage,6,x
 890394_2023,890394,2023,interest_coverage,-982.1428571428572,Interest coverage,6,x
 890394_2024,890394,2024,interest_coverage,-1243.5,Interest coverage,6,x
-890394_2025,890394,2025,interest_coverage,-4760.0,Interest coverage,6,x
+890394_2025,890394,2025,interest_coverage,-4760,Interest coverage,6,x
 890821_2016,890821,2016,interest_coverage,-7.162893403313123,Interest coverage,6,x
 890821_2017,890821,2017,interest_coverage,-20.81717761751812,Interest coverage,6,x
 890821_2018,890821,2018,interest_coverage,-9.79106612448897,Interest coverage,6,x
@@ -4776,7 +4776,7 @@ cik_year,cik,label_year,ratio_code,value,ratio,ratio_order,unit
 895419_2017,895419,2017,interest_coverage,-5.2040133779264215,Interest coverage,6,x
 895419_2018,895419,2018,interest_coverage,-54.01066797964877,Interest coverage,6,x
 895419_2019,895419,2019,interest_coverage,-3.975,Interest coverage,6,x
-895419_2020,895419,2020,interest_coverage,-6.0,Interest coverage,6,x
+895419_2020,895419,2020,interest_coverage,-6,Interest coverage,6,x
 895419_2021,895419,2021,interest_coverage,-6.91409691629956,Interest coverage,6,x
 895419_2022,895419,2022,interest_coverage,-9.872509960159364,Interest coverage,6,x
 895419_2023,895419,2023,interest_coverage,-8.934272300469484,Interest coverage,6,x
@@ -5041,7 +5041,7 @@ cik_year,cik,label_year,ratio_code,value,ratio,ratio_order,unit
 1398805_2019,1398805,2019,interest_coverage,-4.567078065212323,Interest coverage,6,x
 1398805_2020,1398805,2020,interest_coverage,-95.42859760678748,Interest coverage,6,x
 1398805_2021,1398805,2021,interest_coverage,-77639.03529411764,Interest coverage,6,x
-1398805_2022,1398805,2022,interest_coverage,-19716.0,Interest coverage,6,x
+1398805_2022,1398805,2022,interest_coverage,-19716,Interest coverage,6,x
 1398805_2023,1398805,2023,interest_coverage,-1355.0833333333333,Interest coverage,6,x
 1398805_2024,1398805,2024,interest_coverage,-342.8529411764705,Interest coverage,6,x
 1410172_2015,1410172,2015,interest_coverage,-696.7798165137615,Interest coverage,6,x
@@ -5147,7 +5147,7 @@ cik_year,cik,label_year,ratio_code,value,ratio,ratio_order,unit
 1667011_2025,1667011,2025,interest_coverage,-171.69430051813472,Interest coverage,6,x
 1682149_2018,1682149,2018,interest_coverage,-0.3453786923781792,Interest coverage,6,x
 1682149_2020,1682149,2020,interest_coverage,-8.079455977093772,Interest coverage,6,x
-1682149_2021,1682149,2021,interest_coverage,-1279.0,Interest coverage,6,x
+1682149_2021,1682149,2021,interest_coverage,-1279,Interest coverage,6,x
 1682149_2022,1682149,2022,interest_coverage,-20.093541202672604,Interest coverage,6,x
 1682149_2023,1682149,2023,interest_coverage,-23.0225321888412,Interest coverage,6,x
 1682149_2024,1682149,2024,interest_coverage,-16.617924528301888,Interest coverage,6,x
@@ -5170,7 +5170,7 @@ cik_year,cik,label_year,ratio_code,value,ratio,ratio_order,unit
 1781405_2022,1781405,2022,interest_coverage,-364.3105430343367,Interest coverage,6,x
 1803696_2020,1803696,2020,interest_coverage,4.690069442610832,Interest coverage,6,x
 1803696_2021,1803696,2021,interest_coverage,0.3543991994457701,Interest coverage,6,x
-1817760_2021,1817760,2021,interest_coverage,-858.0,Interest coverage,6,x
+1817760_2021,1817760,2021,interest_coverage,-858,Interest coverage,6,x
 1819974_2021,1819974,2021,interest_coverage,-16.12196499153021,Interest coverage,6,x
 1819974_2022,1819974,2022,interest_coverage,-5.731035810550635,Interest coverage,6,x
 1819974_2023,1819974,2023,interest_coverage,-1.3659708110105302,Interest coverage,6,x
@@ -5178,7 +5178,7 @@ cik_year,cik,label_year,ratio_code,value,ratio,ratio_order,unit
 1819974_2025,1819974,2025,interest_coverage,-0.187850944359367,Interest coverage,6,x
 1821769_2021,1821769,2021,interest_coverage,-258.5207547169811,Interest coverage,6,x
 1821769_2022,1821769,2022,interest_coverage,-426.3344827586207,Interest coverage,6,x
-1821769_2025,1821769,2025,interest_coverage,-3716.0,Interest coverage,6,x
+1821769_2025,1821769,2025,interest_coverage,-3716,Interest coverage,6,x
 1828161_2025,1828161,2025,interest_coverage,-4.317245581962219,Interest coverage,6,x
 1831651_2021,1831651,2021,interest_coverage,2.4903429788988936,Interest coverage,6,x
 1831651_2022,1831651,2022,interest_coverage,3.57805588520876,Interest coverage,6,x
@@ -5889,7 +5889,7 @@ cik_year,cik,label_year,ratio_code,value,ratio,ratio_order,unit
 1420520_2018,1420520,2018,gross_margin,0.3983739837398374,Gross margin,7,%
 1420520_2019,1420520,2019,gross_margin,0.525328330206379,Gross margin,7,%
 1420520_2020,1420520,2020,gross_margin,0.7903225806451614,Gross margin,7,%
-1420520_2021,1420520,2021,gross_margin,1.0,Gross margin,7,%
+1420520_2021,1420520,2021,gross_margin,1,Gross margin,7,%
 1420520_2022,1420520,2022,gross_margin,0.787958115183246,Gross margin,7,%
 1420520_2023,1420520,2023,gross_margin,0.9490909090909092,Gross margin,7,%
 1420520_2024,1420520,2024,gross_margin,0.0888888888888888,Gross margin,7,%
@@ -5943,8 +5943,8 @@ cik_year,cik,label_year,ratio_code,value,ratio,ratio_order,unit
 1494162_2018,1494162,2018,gross_margin,0.0015872308077783,Gross margin,7,%
 1494162_2019,1494162,2019,gross_margin,0.0396721209343307,Gross margin,7,%
 1500412_2025,1500412,2025,gross_margin,0.4426041867777256,Gross margin,7,%
-1507957_2021,1507957,2021,gross_margin,0.0,Gross margin,7,%
-1507957_2022,1507957,2022,gross_margin,0.0,Gross margin,7,%
+1507957_2021,1507957,2021,gross_margin,0,Gross margin,7,%
+1507957_2022,1507957,2022,gross_margin,0,Gross margin,7,%
 1507957_2023,1507957,2023,gross_margin,0.1923759623072242,Gross margin,7,%
 1507957_2024,1507957,2024,gross_margin,-0.0857471638460107,Gross margin,7,%
 1507957_2025,1507957,2025,gross_margin,-0.601145038167939,Gross margin,7,%
@@ -5957,7 +5957,7 @@ cik_year,cik,label_year,ratio_code,value,ratio,ratio_order,unit
 1556898_2023,1556898,2023,gross_margin,0.5273516642547034,Gross margin,7,%
 1556898_2024,1556898,2024,gross_margin,0.5378329769305935,Gross margin,7,%
 1571636_2017,1571636,2017,gross_margin,-0.181444645368696,Gross margin,7,%
-1571636_2018,1571636,2018,gross_margin,0.0,Gross margin,7,%
+1571636_2018,1571636,2018,gross_margin,0,Gross margin,7,%
 1571636_2019,1571636,2019,gross_margin,0.1161866897619323,Gross margin,7,%
 1585854_2015,1585854,2015,gross_margin,0.0992661259173425,Gross margin,7,%
 1604778_2015,1604778,2015,gross_margin,0.4020157611331101,Gross margin,7,%
@@ -8154,7 +8154,7 @@ cik_year,cik,label_year,ratio_code,value,ratio,ratio_order,unit
 827054_2021,827054,2021,roa,0.0793543010586746,ROA,10,%
 827054_2022,827054,2022,roa,0.136692669040885,ROA,10,%
 827054_2023,827054,2023,roa,0.1201333064536451,ROA,10,%
-827054_2024,827054,2024,roa,-3.252117128250491e-05,ROA,10,%
+827054_2024,827054,2024,roa,-0.00003252117128250491,ROA,10,%
 827054_2025,827054,2025,roa,0.0160054557727503,ROA,10,%
 833640_2015,833640,2015,roa,0.0802954442432061,ROA,10,%
 833640_2016,833640,2016,roa,0.0862357699275036,ROA,10,%
@@ -8446,7 +8446,7 @@ cik_year,cik,label_year,ratio_code,value,ratio,ratio_order,unit
 1173489_2016,1173489,2016,roa,0.0540217324068537,ROA,10,%
 1173489_2017,1173489,2017,roa,0.0615146742193257,ROA,10,%
 1173489_2018,1173489,2018,roa,0.0020702365623974,ROA,10,%
-1173489_2019,1173489,2019,roa,9.426942876092936e-05,ROA,10,%
+1173489_2019,1173489,2019,roa,0.00009426942876092936,ROA,10,%
 1175609_2015,1175609,2015,roa,-0.0393093897827845,ROA,10,%
 1175609_2016,1175609,2016,roa,-0.0891888731565781,ROA,10,%
 1175609_2017,1175609,2017,roa,-0.0433259402576565,ROA,10,%
@@ -9073,7 +9073,7 @@ cik_year,cik,label_year,ratio_code,value,ratio,ratio_order,unit
 827054_2021,827054,2021,roe,0.2180735563547533,ROE,11,%
 827054_2022,827054,2022,roe,0.3435427413411938,ROE,11,%
 827054_2023,827054,2023,roe,0.2864159331911442,ROE,11,%
-827054_2024,827054,2024,roe,-7.063843013152875e-05,ROE,11,%
+827054_2024,827054,2024,roe,-0.00007063843013152875,ROE,11,%
 827054_2025,827054,2025,roe,0.0357564828057956,ROE,11,%
 833640_2015,833640,2015,roe,0.0913328620523121,ROE,11,%
 833640_2016,833640,2016,roe,0.09811413527827,ROE,11,%
@@ -9813,7 +9813,7 @@ cik_year,cik,label_year,ratio_code,value,ratio,ratio_order,unit
 91668_2024,91668,2024,asset_turnover,0.5749304305123588,Asset turnover,12,x
 91668_2025,91668,2025,asset_turnover,0.65420200462606,Asset turnover,12,x
 93205_2015,93205,2015,asset_turnover,67.94999999999999,Asset turnover,12,x
-93205_2016,93205,2016,asset_turnover,0.0,Asset turnover,12,x
+93205_2016,93205,2016,asset_turnover,0,Asset turnover,12,x
 93205_2017,93205,2017,asset_turnover,0.0383647857556997,Asset turnover,12,x
 93205_2018,93205,2018,asset_turnover,0.0378798390453725,Asset turnover,12,x
 97476_2015,97476,2015,asset_turnover,0.8009858287122612,Asset turnover,12,x
@@ -10378,8 +10378,8 @@ cik_year,cik,label_year,ratio_code,value,ratio,ratio_order,unit
 1398805_2022,1398805,2022,asset_turnover,0.5829578584680626,Asset turnover,12,x
 1398805_2023,1398805,2023,asset_turnover,0.8674703450407634,Asset turnover,12,x
 1398805_2024,1398805,2024,asset_turnover,0.8027465464781398,Asset turnover,12,x
-1404943_2015,1404943,2015,asset_turnover,0.0,Asset turnover,12,x
-1404943_2016,1404943,2016,asset_turnover,0.0,Asset turnover,12,x
+1404943_2015,1404943,2015,asset_turnover,0,Asset turnover,12,x
+1404943_2016,1404943,2016,asset_turnover,0,Asset turnover,12,x
 1410172_2015,1410172,2015,asset_turnover,0.1997450562721189,Asset turnover,12,x
 1410172_2016,1410172,2016,asset_turnover,0.370286533491785,Asset turnover,12,x
 1410172_2017,1410172,2017,asset_turnover,0.1439169139465875,Asset turnover,12,x
@@ -10463,8 +10463,8 @@ cik_year,cik,label_year,ratio_code,value,ratio,ratio_order,unit
 1493594_2023,1493594,2023,asset_turnover,0.4174534071916583,Asset turnover,12,x
 1493594_2024,1493594,2024,asset_turnover,0.4155624159850538,Asset turnover,12,x
 1493594_2025,1493594,2025,asset_turnover,0.4598632663928191,Asset turnover,12,x
-1494162_2015,1494162,2015,asset_turnover,0.0,Asset turnover,12,x
-1494162_2016,1494162,2016,asset_turnover,0.0,Asset turnover,12,x
+1494162_2015,1494162,2015,asset_turnover,0,Asset turnover,12,x
+1494162_2016,1494162,2016,asset_turnover,0,Asset turnover,12,x
 1494162_2017,1494162,2017,asset_turnover,-0.2016861908485616,Asset turnover,12,x
 1494162_2018,1494162,2018,asset_turnover,2.559725626824217,Asset turnover,12,x
 1494162_2019,1494162,2019,asset_turnover,0.1207183028301385,Asset turnover,12,x
@@ -10485,7 +10485,7 @@ cik_year,cik,label_year,ratio_code,value,ratio,ratio_order,unit
 1571636_2017,1571636,2017,asset_turnover,1.251736951642009,Asset turnover,12,x
 1571636_2018,1571636,2018,asset_turnover,1.7503755183312877,Asset turnover,12,x
 1571636_2019,1571636,2019,asset_turnover,0.4394645712239249,Asset turnover,12,x
-1579910_2015,1579910,2015,asset_turnover,0.0,Asset turnover,12,x
+1579910_2015,1579910,2015,asset_turnover,0,Asset turnover,12,x
 1579910_2016,1579910,2016,asset_turnover,0.0228805212516099,Asset turnover,12,x
 1579910_2017,1579910,2017,asset_turnover,0.0274831649831649,Asset turnover,12,x
 1579910_2018,1579910,2018,asset_turnover,0.0199664685261393,Asset turnover,12,x
@@ -10513,7 +10513,7 @@ cik_year,cik,label_year,ratio_code,value,ratio,ratio_order,unit
 1616533_2023,1616533,2023,asset_turnover,0.9570320022205134,Asset turnover,12,x
 1616533_2024,1616533,2024,asset_turnover,0.7940259313966848,Asset turnover,12,x
 1616533_2025,1616533,2025,asset_turnover,0.8463974771209498,Asset turnover,12,x
-1631547_2015,1631547,2015,asset_turnover,0.0,Asset turnover,12,x
+1631547_2015,1631547,2015,asset_turnover,0,Asset turnover,12,x
 1634447_2020,1634447,2020,asset_turnover,1.0728292509885171,Asset turnover,12,x
 1634447_2021,1634447,2021,asset_turnover,0.436831988357538,Asset turnover,12,x
 1634447_2022,1634447,2022,asset_turnover,1.1329559431543694,Asset turnover,12,x
@@ -10736,7 +10736,7 @@ cik_year,cik,label_year,ratio_code,value,ratio,ratio_order,unit
 91668_2024,91668,2024,revenue_growth,0.1012777298737948,Revenue growth,13,%
 91668_2025,91668,2025,revenue_growth,0.2079151541034949,Revenue growth,13,%
 93205_2015,93205,2015,revenue_growth,-0.2017152255639098,Revenue growth,13,%
-93205_2016,93205,2016,revenue_growth,-1.0,Revenue growth,13,%
+93205_2016,93205,2016,revenue_growth,-1,Revenue growth,13,%
 93205_2018,93205,2018,revenue_growth,-0.5009140767824498,Revenue growth,13,%
 97476_2015,97476,2015,revenue_growth,-0.0034495975469528,Revenue growth,13,%
 97476_2016,97476,2016,revenue_growth,0.0284615384615385,Revenue growth,13,%
@@ -11719,7 +11719,7 @@ cik_year,cik,label_year,ratio_code,value,ratio,ratio_order,unit
 827054_2022,827054,2022,net_income_growth,0.7407234539089846,Net income growth,14,%
 827054_2023,827054,2023,net_income_growth,-0.14783036153193,Net income growth,14,%
 827054_2024,827054,2024,net_income_growth,-1.0002622056741308,Net income growth,14,%
-827054_2025,827054,2025,net_income_growth,461.0,Net income growth,14,%
+827054_2025,827054,2025,net_income_growth,461,Net income growth,14,%
 833640_2015,833640,2015,net_income_growth,-0.3425534058847239,Net income growth,14,%
 833640_2016,833640,2016,net_income_growth,0.2233376759394079,Net income growth,14,%
 833640_2017,833640,2017,net_income_growth,-0.4234913343077886,Net income growth,14,%

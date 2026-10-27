@@ -246,9 +246,18 @@ def build_all(processed_dir=config.PROCESSED_DIR):
 
 
 def save_all(tables, out_dir=config.DASHBOARD_EXPORTS_DIR):
-    """Write UTF-8 CSVs; blanks are written as empty fields."""
+    """Write UTF-8 CSVs; blanks are written as empty fields.
+
+    Numbers are written in plain positional form (0.0000325, never 3.25e-05):
+    Power BI reads scientific notation as text, which turns the whole column
+    into text. format_float_positional keeps the shortest exact digits, so no
+    value is rounded.
+    """
     out_dir.mkdir(parents=True, exist_ok=True)
     for name, df in tables.items():
+        df = df.copy()
+        for c in df.select_dtypes("float").columns:
+            df[c] = df[c].map(lambda v: "" if pd.isna(v) else np.format_float_positional(v, trim="-"))
         df.to_csv(out_dir / f"{name}.csv", index=False, encoding="utf-8")
 
 

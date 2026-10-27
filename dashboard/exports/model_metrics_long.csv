@@ -9,7 +9,7 @@ XGBoost,validation,4,0,0,precision,0.825,Precision
 XGBoost,test,4,0,0,precision,0.8125,Precision
 Baseline: current ratio < 1,validation,5,1,0,precision,0.75,Precision
 Baseline: persistence (Z' < 1.23 now),validation,6,1,0,precision,0.8571428571428571,Precision
-Baseline: current ratio < 1,test,5,1,0,precision,1.0,Precision
+Baseline: current ratio < 1,test,5,1,0,precision,1,Precision
 Baseline: persistence (Z' < 1.23 now),test,6,1,0,precision,0.88,Precision
 Logistic regression,validation,1,0,0,recall,0.813953488372093,Recall
 Logistic regression,test,1,0,0,recall,0.7037037037037037,Recall
