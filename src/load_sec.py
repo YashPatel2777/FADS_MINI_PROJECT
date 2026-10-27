@@ -12,7 +12,11 @@ exactly as downloaded.
 """
 
 import csv
+import json
+import os
 import re
+import time
+import urllib.request
 import zipfile
 from pathlib import Path
 
@@ -177,3 +181,73 @@ def load_num_for_filings(zip_paths, adsh_keep, chunksize=2_000_000):
     num["qtrs"] = num["qtrs"].astype("int64")
     num["value"] = pd.to_numeric(num["value"])
     return num, pd.DataFrame(checks)
+
+
+# ---------------------------------------------------------------------------
+# SEC company facts (Phase 2: case companies only)
+# ---------------------------------------------------------------------------
+# The quarterly num files hold only facts shown on the primary statements, so
+# items disclosed only in the notes (for example Intel's and Wolfspeed's
+# interest expense) are missing there. The company facts API returns every
+# us-gaap fact from the same XBRL filings, including the notes, with the
+# accession number (accn) of the filing each value came from.
+
+COMPANYFACTS_URL = "https://data.sec.gov/api/xbrl/companyfacts/CIK{cik:010d}.json"
+
+
+def download_companyfacts(ciks, out_dir, user_agent):
+    """Download the company facts JSON for each CIK unless it is already on disk."""
+    out_dir = Path(out_dir)
+    out_dir.mkdir(parents=True, exist_ok=True)
+    for cik in ciks:
+        path = out_dir / f"CIK{cik:010d}.json"
+        if path.exists():
+            print(f"{path.name}: already downloaded")
+            continue
+        req = urllib.request.Request(COMPANYFACTS_URL.format(cik=cik), headers={"User-Agent": user_agent})
+        with urllib.request.urlopen(req) as resp:
+            path.write_bytes(resp.read())
+        print(f"{path.name}: downloaded {path.stat().st_size:,} bytes")
+        time.sleep(1)  # stay well under the SEC's request-rate limit
+
+
+def annual_facts_for_filings(companyfacts_dir, filings, tags):
+    """Return full-year USD values of `tags` reported in the given filings.
+
+    A value is kept only if
+    - it was reported in that exact filing (accn == adsh), so it is the
+      company's own figure for that 10-K, not a later restatement;
+    - it covers a full year (350 to 380 days between start and end);
+    - its end date is within 10 days of the filing's period (sub.txt rounds
+      the period to month-end; company facts give the exact date, e.g.
+      Nvidia's 2024-01-28 vs period 2024-01-31).
+
+    Returns one row per (adsh, tag) with the value in raw USD.
+    """
+    rows = []
+    for cik, group in filings.groupby("cik"):
+        path = Path(companyfacts_dir) / f"CIK{cik:010d}.json"
+        gaap = json.loads(path.read_text(encoding="utf-8"))["facts"]["us-gaap"]
+        by_adsh = group.set_index("adsh")["period"]
+        for tag in tags:
+            for fact in gaap.get(tag, {}).get("units", {}).get("USD", []):
+                adsh = fact.get("accn")
+                if adsh not in by_adsh.index or "start" not in fact:
+                    continue
+                start, end = pd.Timestamp(fact["start"]), pd.Timestamp(fact["end"])
+                if 350 <= (end - start).days <= 380 and abs((end - by_adsh[adsh]).days) <= 10:
+                    rows.append({"adsh": adsh, "tag": tag, "value": fact["val"]})
+    out = pd.DataFrame(rows, columns=["adsh", "tag", "value"])
+    # A fact can be listed more than once (e.g. repeated in several frames);
+    # identical values collapse to one row, conflicting ones are kept so the
+    # caller can detect them.
+    return out.drop_duplicates()
+
+
+def sec_user_agent(env_var):
+    """Read the SEC User-Agent ("Name email") from an environment variable."""
+    ua = os.environ.get(env_var, "").strip()
+    if not ua:
+        raise RuntimeError(f"Set the {env_var} environment variable to 'Your Name your@email' "
+                           "before downloading from the SEC.")
+    return ua

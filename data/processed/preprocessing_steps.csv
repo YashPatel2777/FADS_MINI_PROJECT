@@ -1,0 +1,6 @@
+step,rows,companies,rows_removed
+Phase 1 annual filings (all label years),1128,167,0
+Label years 2014-2025,1114,167,14
+Deduplicated (latest filing per company-period),1087,167,27
+With USD statement values,1085,166,2
+After dropping rows missing core items,1028,161,57

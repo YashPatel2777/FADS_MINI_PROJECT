@@ -35,6 +35,7 @@ The raw data is not stored in this repository.
 2. Download the quarterly zip files (for example `2024q1.zip`) covering the label-year range set in `src/config.py` (`LABEL_YEAR_START` to `LABEL_YEAR_END`). Include a few quarters after the last year so January year-end filers such as Nvidia are captured.
 3. Put the zip files **as downloaded** into `data/raw/`. Do not rename, unzip into, or edit anything in that folder; the code reads from it and never writes to it.
 4. Each zip contains a readme describing the `sub`, `num`, `tag` and `pre` files. Field names used in the code are checked against it.
+5. Phase 2 also uses the SEC company facts files for the four case companies (`data/raw/companyfacts/`). Notebook 02 downloads them if they are missing; set the environment variable `SEC_USER_AGENT` to `"Your Name your@email"` first, as the SEC asks automated requests to identify themselves.
 
 ## Running the analysis
 

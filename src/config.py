@@ -53,14 +53,26 @@ CASE_COMPANIES = {
 }
 
 # ---------------------------------------------------------------------------
-# Year range (PLACEHOLDER: edit after Phase 1 shows which years are available)
+# Year range (confirmed in Phase 2 from the Phase 1 coverage check)
 # ---------------------------------------------------------------------------
 # These are label years (Compustat convention: fiscal year-end in January to
-# May -> previous calendar year; June to December -> same year). Download
-# quarterly files a few months past LABEL_YEAR_END so January year-end filers
-# such as Nvidia are included.
+# May -> previous calendar year; June to December -> same year). The analysis
+# covers 2015 to 2025; label year 2014 (GROWTH_BASE_YEAR) is kept only as the
+# "last year" for 2015 growth ratios. Years outside 2014-2025 are only
+# partially covered by the downloaded quarters and are dropped.
 LABEL_YEAR_START = 2015
 LABEL_YEAR_END = 2025
+GROWTH_BASE_YEAR = LABEL_YEAR_START - 1
+
+# ---------------------------------------------------------------------------
+# SEC company facts (case companies only, used to fill note-only items)
+# ---------------------------------------------------------------------------
+# One JSON file per case company from data.sec.gov/api/xbrl/companyfacts.
+# The SEC asks automated requests to identify themselves; the User-Agent is
+# read from the SEC_USER_AGENT environment variable ("Name email") so no
+# personal email is stored in the repository.
+COMPANYFACTS_DIR = RAW_DIR / "companyfacts"
+SEC_USER_AGENT_ENV = "SEC_USER_AGENT"
 
 # ---------------------------------------------------------------------------
 # Reproducibility
