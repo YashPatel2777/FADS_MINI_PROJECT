@@ -75,6 +75,18 @@ COMPANYFACTS_DIR = RAW_DIR / "companyfacts"
 SEC_USER_AGENT_ENV = "SEC_USER_AGENT"
 
 # ---------------------------------------------------------------------------
+# Modelling split (Phase 5, by feature year; the label is year t+1)
+# ---------------------------------------------------------------------------
+# Time-based only (hard rule 8). Test has two years so its metrics rest on
+# ~134 rows / ~54 distressed instead of ~65 / ~23.
+TRAIN_YEARS = (2015, 2020)
+VAL_YEARS = (2021, 2022)
+TEST_YEARS = (2023, 2024)
+# First feature year scored in the walk-forward case-company predictions
+# (needs at least three training years before it).
+WALK_FORWARD_START = 2018
+
+# ---------------------------------------------------------------------------
 # Reproducibility
 # ---------------------------------------------------------------------------
 # One seed for every random operation (models, resampling, any sampling).

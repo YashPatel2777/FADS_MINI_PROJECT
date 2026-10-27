@@ -46,3 +46,11 @@ Every source used in the project, added in the phase where it was used. Before t
 ## Phase 4 additions
 
 No new external sources; Phase 4 uses references 6 and 11 to 14 for the Z' model and cutoffs.
+
+## Phase 5 additions (methods and software used in modelling)
+
+18. Pedregosa, F. et al. (2011). Scikit-learn: Machine learning in Python. *Journal of Machine Learning Research*, 12. **Verify**. Library for logistic regression, decision tree, random forest, imputation, scaling, metrics and permutation importance.
+19. Chen, T. and Guestrin, C. (2016). XGBoost: A scalable tree boosting system. *Proceedings of the 22nd ACM SIGKDD Conference*. **Verify**. Gradient boosting model.
+20. Breiman, L. (2001). Random forests. *Machine Learning*, 45. **Verify**. Best-performing model.
+21. Lundberg, S. M. and Lee, S.-I. (2017). A unified approach to interpreting model predictions. *Advances in Neural Information Processing Systems 30*. **Verify**. SHAP values for feature importance.
+22. scikit-learn developers. *Permutation feature importance* (user guide). https://scikit-learn.org/stable/modules/permutation_importance.html. **Verify** the access date. Method used for permutation importance.
