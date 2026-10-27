@@ -72,3 +72,7 @@ Note: the company colours were checked for colour-blind readability with the pal
 27. Wolfspeed, Inc. (2026). *Form 10-K for the fiscal year ended June 28, 2026*, basis of presentation (R11), "Emergence from Voluntary Reorganization under Chapter 11" (R12) and "Fresh Start Accounting" (R13). SEC EDGAR, accession 0000895419-26-000054. https://www.sec.gov/Archives/edgar/data/895419/000089541926000054/R11.htm. Accessed 2026-10-28. Source for the emergence date (29 September 2025) and fresh-start accounting.
 28. Cash flow statements and balance sheets of the Nvidia, AMD, Intel and Wolfspeed 10-K filings for label years 2017, 2022 and 2024 (EDGAR rendered statements). Filing links are listed in `data/processed/case_extra_verification.csv`. Accessed 2026-10-28. Used to verify capex, buybacks and goodwill (32 of 32 values match).
 29. DuPont analysis (ROE = net margin x asset turnover x equity multiplier): standard textbook identity, e.g. Brealey, R. A., Myers, S. C. and Allen, F. *Principles of Corporate Finance* (McGraw-Hill), chapter on financial analysis. **Verify** edition and chapter before citing. Used to test whether Nvidia's ROE reflects profit or a thin equity base.
+
+## Phase 9 additions
+
+No new external sources; the conclusion and limitations use results and references already listed (Altman Z' sources 6 and 11 to 14 for the cutoff note; reference 26 for Wolfspeed).
