@@ -54,3 +54,10 @@ No new external sources; Phase 4 uses references 6 and 11 to 14 for the Z' model
 20. Breiman, L. (2001). Random forests. *Machine Learning*, 45. **Verify**. Best-performing model.
 21. Lundberg, S. M. and Lee, S.-I. (2017). A unified approach to interpreting model predictions. *Advances in Neural Information Processing Systems 30*. **Verify**. SHAP values for feature importance.
 22. scikit-learn developers. *Permutation feature importance* (user guide). https://scikit-learn.org/stable/modules/permutation_importance.html. **Verify** the access date. Method used for permutation importance.
+
+## Phase 6 additions (figures)
+
+23. Hunter, J. D. (2007). Matplotlib: A 2D graphics environment. *Computing in Science & Engineering*, 9(3). **Verify**. Library used for all 13 report figures.
+24. Spearman, C. (1904). The proof and measurement of association between two things. *American Journal of Psychology*, 15. **Verify**. Rank correlation used in Figure 9.
+
+Note: the company colours were checked for colour-blind readability with the palette validator included in the Claude Code "dataviz" guidance; this is a tool used during the work, not a published source.
