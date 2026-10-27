@@ -226,24 +226,9 @@ The final table has one row per company per label year, with 80 to 103 companies
 
 ## 4.1 Workflow
 
-**Figure 14. Overall workflow of the project**
+![Figure 14](../../figures/fig14_workflow.png)
 
-```
-SEC quarterly zips (sub, num, tag, pre; 2014Q3–2026Q3)
-        │  select SIC 3674, Form 10-K / 10-K/A, identify by CIK
-        ▼
-Annual filings ──► fiscal year alignment (label_year)
-        │  keep consolidated full-year USD values; deduplicate amendments
-        ▼
-Clean statements (USD millions, one row per company-year, 1,028 rows)
-        │  ratios + profit and loss summary   ──► 10-K verification (case companies)
-        ▼
-Ratios table ──► Altman Z' label (year t+1) ──► modelling table (features t, label t+1)
-        │                                          │  time-based split, train-only preprocessing
-        ▼                                          ▼
-Figures 1–13, case studies              4 models + 2 baselines ──► metrics, SHAP, walk-forward
-        └──────────────────────► CSV exports ──► Power BI dashboard
-```
+**Figure 14. Overall workflow of the project.** SEC filings were selected, aligned to label years and cleaned into 1,028 company-years; ratios and the Altman Z' label (year t+1) then feed three strands: ratio and case analysis (Chapters 5–6), machine learning (Chapter 7) and the Power BI dashboard (Chapter 8). Case-company values were checked against their 10-K filings (99 + 32 values matched).
 
 Every cleaning decision was recorded on the day it was made in a data log (`docs/data_log.md`, summarised in Appendix B).
 
