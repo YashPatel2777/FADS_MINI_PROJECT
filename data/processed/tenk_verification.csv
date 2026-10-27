@@ -1,0 +1,100 @@
+company,label_year,item,computed_musd,statement,status,tenk_line,tenk_value_musd,filing
+Nvidia,2017,revenue,9714.0,income,match,Revenue,9714.0,https://www.sec.gov/Archives/edgar/data/1045810/000104581018000010/
+Nvidia,2017,gross_profit,5822.0,income,match,Gross profit,5822.0,https://www.sec.gov/Archives/edgar/data/1045810/000104581018000010/
+Nvidia,2017,operating_income,3210.0,income,match,Income from operations,3210.0,https://www.sec.gov/Archives/edgar/data/1045810/000104581018000010/
+Nvidia,2017,net_income,3047.0,income,match,Net income,3047.0,https://www.sec.gov/Archives/edgar/data/1045810/000104581018000010/
+Nvidia,2017,total_assets,11241.0,balance,match,Total assets,11241.0,https://www.sec.gov/Archives/edgar/data/1045810/000104581018000010/
+Nvidia,2017,current_assets,9255.0,balance,match,Total current assets,9255.0,https://www.sec.gov/Archives/edgar/data/1045810/000104581018000010/
+Nvidia,2017,current_liabilities,1153.0,balance,match,Total current liabilities,1153.0,https://www.sec.gov/Archives/edgar/data/1045810/000104581018000010/
+Nvidia,2017,liabilities_and_equity,11241.0,balance,match,Total assets,11241.0,https://www.sec.gov/Archives/edgar/data/1045810/000104581018000010/
+Nvidia,2017,equity,7471.0,balance,match,Total shareholders' equity,7471.0,https://www.sec.gov/Archives/edgar/data/1045810/000104581018000010/
+Nvidia,2017,cash,4002.0,balance,match,Cash and cash equivalents,4002.0,https://www.sec.gov/Archives/edgar/data/1045810/000104581018000010/
+Nvidia,2017,inventory,796.0,balance,match,Inventories,796.0,https://www.sec.gov/Archives/edgar/data/1045810/000104581018000010/
+Nvidia,2024,revenue,130497.0,income,match,Revenue,130497.0,https://www.sec.gov/Archives/edgar/data/1045810/000104581025000023/
+Nvidia,2024,gross_profit,97858.0,income,match,Gross profit,97858.0,https://www.sec.gov/Archives/edgar/data/1045810/000104581025000023/
+Nvidia,2024,operating_income,81453.0,income,match,Operating income,81453.0,https://www.sec.gov/Archives/edgar/data/1045810/000104581025000023/
+Nvidia,2024,net_income,72880.0,income,match,Net income,72880.0,https://www.sec.gov/Archives/edgar/data/1045810/000104581025000023/
+Nvidia,2024,total_assets,111601.0,balance,match,Total assets,111601.0,https://www.sec.gov/Archives/edgar/data/1045810/000104581025000023/
+Nvidia,2024,current_assets,80126.0,balance,match,Total current assets,80126.0,https://www.sec.gov/Archives/edgar/data/1045810/000104581025000023/
+Nvidia,2024,current_liabilities,18047.0,balance,match,Total current liabilities,18047.0,https://www.sec.gov/Archives/edgar/data/1045810/000104581025000023/
+Nvidia,2024,liabilities_and_equity,111601.0,balance,match,Total liabilities and shareholders' equity,111601.0,https://www.sec.gov/Archives/edgar/data/1045810/000104581025000023/
+Nvidia,2024,equity,79327.0,balance,match,Total shareholders' equity,79327.0,https://www.sec.gov/Archives/edgar/data/1045810/000104581025000023/
+Nvidia,2024,cash,8589.0,balance,match,Cash and cash equivalents,8589.0,https://www.sec.gov/Archives/edgar/data/1045810/000104581025000023/
+Nvidia,2024,inventory,10080.0,balance,match,Inventories,10080.0,https://www.sec.gov/Archives/edgar/data/1045810/000104581025000023/
+AMD,2017,revenue,5329.0,income,match,Net revenue,5329.0,https://www.sec.gov/Archives/edgar/data/2488/000000248818000042/
+AMD,2017,gross_profit,1823.0,income,match,Gross margin,1823.0,https://www.sec.gov/Archives/edgar/data/2488/000000248818000042/
+AMD,2017,operating_income,204.0,income,match,Operating income (loss),204.0,https://www.sec.gov/Archives/edgar/data/2488/000000248818000042/
+AMD,2017,net_income,43.0,income,match,Net income (loss),43.0,https://www.sec.gov/Archives/edgar/data/2488/000000248818000042/
+AMD,2017,total_assets,3540.0,balance,match,Total assets,3540.0,https://www.sec.gov/Archives/edgar/data/2488/000000248818000042/
+AMD,2017,current_assets,2622.0,balance,match,Total current assets,2622.0,https://www.sec.gov/Archives/edgar/data/2488/000000248818000042/
+AMD,2017,current_liabilities,1486.0,balance,match,Total current liabilities,1486.0,https://www.sec.gov/Archives/edgar/data/2488/000000248818000042/
+AMD,2017,liabilities_and_equity,3540.0,balance,match,Total liabilities and stockholders’ equity,3540.0,https://www.sec.gov/Archives/edgar/data/2488/000000248818000042/
+AMD,2017,equity,611.0,balance,match,Total stockholders’ equity,611.0,https://www.sec.gov/Archives/edgar/data/2488/000000248818000042/
+AMD,2017,cash,1185.0,balance,match,Cash and cash equivalents,1185.0,https://www.sec.gov/Archives/edgar/data/2488/000000248818000042/
+AMD,2017,inventory,739.0,balance,match,"Inventories, net",739.0,https://www.sec.gov/Archives/edgar/data/2488/000000248818000042/
+AMD,2024,revenue,25785.0,income,match,Net revenue,25785.0,https://www.sec.gov/Archives/edgar/data/2488/000000248825000012/
+AMD,2024,gross_profit,12725.0,income,match,Gross profit,12725.0,https://www.sec.gov/Archives/edgar/data/2488/000000248825000012/
+AMD,2024,operating_income,1900.0,income,match,Operating income,1900.0,https://www.sec.gov/Archives/edgar/data/2488/000000248825000012/
+AMD,2024,net_income,1641.0,income,match,Net income,1641.0,https://www.sec.gov/Archives/edgar/data/2488/000000248825000012/
+AMD,2024,total_assets,69226.0,balance,match,Total assets,69226.0,https://www.sec.gov/Archives/edgar/data/2488/000000248825000012/
+AMD,2024,current_assets,19049.0,balance,match,Total current assets,19049.0,https://www.sec.gov/Archives/edgar/data/2488/000000248825000012/
+AMD,2024,current_liabilities,7281.0,balance,match,Total current liabilities,7281.0,https://www.sec.gov/Archives/edgar/data/2488/000000248825000012/
+AMD,2024,liabilities_and_equity,69226.0,balance,match,Total liabilities and stockholders’ equity,69226.0,https://www.sec.gov/Archives/edgar/data/2488/000000248825000012/
+AMD,2024,equity,57568.0,balance,match,Total stockholders’ equity,57568.0,https://www.sec.gov/Archives/edgar/data/2488/000000248825000012/
+AMD,2024,cash,3787.0,balance,match,Cash and cash equivalents,3787.0,https://www.sec.gov/Archives/edgar/data/2488/000000248825000012/
+AMD,2024,inventory,5734.0,balance,match,Inventories,5734.0,https://www.sec.gov/Archives/edgar/data/2488/000000248825000012/
+Intel,2017,revenue,62761.0,income,match,Net revenue,62761.0,https://www.sec.gov/Archives/edgar/data/50863/000005086318000007/
+Intel,2017,gross_profit,39069.0,income,match,Gross margin,39069.0,https://www.sec.gov/Archives/edgar/data/50863/000005086318000007/
+Intel,2017,operating_income,17936.0,income,match,Operating income,17936.0,https://www.sec.gov/Archives/edgar/data/50863/000005086318000007/
+Intel,2017,net_income,9601.0,income,match,Net income,9601.0,https://www.sec.gov/Archives/edgar/data/50863/000005086318000007/
+Intel,2017,total_assets,123249.0,balance,match,Total assets,123249.0,https://www.sec.gov/Archives/edgar/data/50863/000005086318000007/
+Intel,2017,current_assets,29500.0,balance,match,Total current assets,29500.0,https://www.sec.gov/Archives/edgar/data/50863/000005086318000007/
+Intel,2017,current_liabilities,17421.0,balance,match,Total current liabilities,17421.0,https://www.sec.gov/Archives/edgar/data/50863/000005086318000007/
+Intel,2017,liabilities_and_equity,123249.0,balance,match,Total assets,123249.0,https://www.sec.gov/Archives/edgar/data/50863/000005086318000007/
+Intel,2017,equity,69019.0,balance,match,Total stockholders’ equity,69019.0,https://www.sec.gov/Archives/edgar/data/50863/000005086318000007/
+Intel,2017,cash,3433.0,balance,match,Cash and cash equivalents,3433.0,https://www.sec.gov/Archives/edgar/data/50863/000005086318000007/
+Intel,2017,inventory,6983.0,balance,match,Inventories,6983.0,https://www.sec.gov/Archives/edgar/data/50863/000005086318000007/
+Intel,2024,revenue,53101.0,income,match,Net revenue,53101.0,https://www.sec.gov/Archives/edgar/data/50863/000005086325000009/
+Intel,2024,gross_profit,17345.0,income,match,Gross margin,17345.0,https://www.sec.gov/Archives/edgar/data/50863/000005086325000009/
+Intel,2024,operating_income,-11678.0,income,match,Operating income (loss),-11678.0,https://www.sec.gov/Archives/edgar/data/50863/000005086325000009/
+Intel,2024,net_income,-18756.0,income,match,Net income (loss) attributable to Intel,-18756.0,https://www.sec.gov/Archives/edgar/data/50863/000005086325000009/
+Intel,2024,total_assets,196485.0,balance,match,Total assets,196485.0,https://www.sec.gov/Archives/edgar/data/50863/000005086325000009/
+Intel,2024,current_assets,47324.0,balance,match,Total current assets,47324.0,https://www.sec.gov/Archives/edgar/data/50863/000005086325000009/
+Intel,2024,current_liabilities,35666.0,balance,match,Total current liabilities,35666.0,https://www.sec.gov/Archives/edgar/data/50863/000005086325000009/
+Intel,2024,liabilities_and_equity,196485.0,balance,match,Total liabilities and stockholders' equity,196485.0,https://www.sec.gov/Archives/edgar/data/50863/000005086325000009/
+Intel,2024,equity,99270.0,balance,match,Total Intel stockholders' equity,99270.0,https://www.sec.gov/Archives/edgar/data/50863/000005086325000009/
+Intel,2024,cash,8249.0,balance,match,"Cash, Cash Equivalents, Restricted Cash and Restricted Cash Equivalents",8249.0,https://www.sec.gov/Archives/edgar/data/50863/000005086325000009/
+Intel,2024,inventory,12198.0,balance,match,Inventories,12198.0,https://www.sec.gov/Archives/edgar/data/50863/000005086325000009/
+Wolfspeed,2017,revenue,1473.0,income,match,"Revenue, net",1473.0,https://www.sec.gov/Archives/edgar/data/895419/000089541917000055/
+Wolfspeed,2017,gross_profit,434.572,income,match,Gross profit,434.572,https://www.sec.gov/Archives/edgar/data/895419/000089541917000055/
+Wolfspeed,2017,operating_income,-18.672,income,match,Operating loss,-18.672,https://www.sec.gov/Archives/edgar/data/895419/000089541917000055/
+Wolfspeed,2017,net_income,-98.118,income,match,Net loss,-98.118,https://www.sec.gov/Archives/edgar/data/895419/000089541917000055/
+Wolfspeed,2017,total_assets,2649.867,balance,match,Total assets,2649.867,https://www.sec.gov/Archives/edgar/data/895419/000089541917000055/
+Wolfspeed,2017,current_assets,1100.63,balance,match,Total current assets,1100.63,https://www.sec.gov/Archives/edgar/data/895419/000089541917000055/
+Wolfspeed,2017,current_liabilities,212.023,balance,match,Total current liabilities,212.023,https://www.sec.gov/Archives/edgar/data/895419/000089541917000055/
+Wolfspeed,2017,liabilities_and_equity,2649.867,balance,match,Total liabilities and shareholders’ equity,2649.867,https://www.sec.gov/Archives/edgar/data/895419/000089541917000055/
+Wolfspeed,2017,equity,2222.805,balance,match,Total shareholders’ equity,2222.805,https://www.sec.gov/Archives/edgar/data/895419/000089541917000055/
+Wolfspeed,2017,cash,132.597,balance,match,Cash and cash equivalents,132.597,https://www.sec.gov/Archives/edgar/data/895419/000089541917000055/
+Wolfspeed,2017,inventory,284.385,balance,match,Inventories,284.385,https://www.sec.gov/Archives/edgar/data/895419/000089541917000055/
+Wolfspeed,2024,revenue,807.2,income,match,"Revenue, net",807.2,https://www.sec.gov/Archives/edgar/data/895419/000089541924000062/
+Wolfspeed,2024,gross_profit,77.4,income,match,Gross profit,77.4,https://www.sec.gov/Archives/edgar/data/895419/000089541924000062/
+Wolfspeed,2024,operating_income,-445.3,income,match,Operating loss,-445.3,https://www.sec.gov/Archives/edgar/data/895419/000089541924000062/
+Wolfspeed,2024,net_income,-864.2,income,match,Net loss,-864.2,https://www.sec.gov/Archives/edgar/data/895419/000089541924000062/
+Wolfspeed,2024,total_assets,7984.6,balance,match,Total assets,7984.6,https://www.sec.gov/Archives/edgar/data/895419/000089541924000062/
+Wolfspeed,2024,current_assets,2999.6,balance,match,Total current assets,2999.6,https://www.sec.gov/Archives/edgar/data/895419/000089541924000062/
+Wolfspeed,2024,current_liabilities,665.3,balance,match,Total current liabilities,665.3,https://www.sec.gov/Archives/edgar/data/895419/000089541924000062/
+Wolfspeed,2024,liabilities_and_equity,7984.6,balance,match,Total liabilities and shareholders’ equity,7984.6,https://www.sec.gov/Archives/edgar/data/895419/000089541924000062/
+Wolfspeed,2024,equity,882.1,balance,match,Total shareholders’ equity,882.1,https://www.sec.gov/Archives/edgar/data/895419/000089541924000062/
+Wolfspeed,2024,cash,1045.9,balance,match,Cash and cash equivalents,1045.9,https://www.sec.gov/Archives/edgar/data/895419/000089541924000062/
+Wolfspeed,2024,inventory,440.7,balance,match,Inventories,440.7,https://www.sec.gov/Archives/edgar/data/895419/000089541924000062/
+Wolfspeed,2025,revenue,757.6,income,match,"Revenue, net",757.6,https://www.sec.gov/Archives/edgar/data/895419/000089541925000110/
+Wolfspeed,2025,gross_profit,-121.6,income,match,Gross (loss) profit,-121.6,https://www.sec.gov/Archives/edgar/data/895419/000089541925000110/
+Wolfspeed,2025,operating_income,-1329.2,income,match,Operating loss,-1329.2,https://www.sec.gov/Archives/edgar/data/895419/000089541925000110/
+Wolfspeed,2025,net_income,-1609.2,income,match,Net loss from continuing operations,-1609.2,https://www.sec.gov/Archives/edgar/data/895419/000089541925000110/
+Wolfspeed,2025,total_assets,6854.4,balance,match,Total assets,6854.4,https://www.sec.gov/Archives/edgar/data/895419/000089541925000110/
+Wolfspeed,2025,current_assets,2542.2,balance,match,Total current assets,2542.2,https://www.sec.gov/Archives/edgar/data/895419/000089541925000110/
+Wolfspeed,2025,current_liabilities,7090.0,balance,match,Total current liabilities,7090.0,https://www.sec.gov/Archives/edgar/data/895419/000089541925000110/
+Wolfspeed,2025,liabilities_and_equity,6854.4,balance,match,Total liabilities and shareholders’ equity,6854.4,https://www.sec.gov/Archives/edgar/data/895419/000089541925000110/
+Wolfspeed,2025,equity,-447.1,balance,match,Total shareholders’ equity,-447.1,https://www.sec.gov/Archives/edgar/data/895419/000089541925000110/
+Wolfspeed,2025,cash,467.2,balance,match,Cash and cash equivalents,467.2,https://www.sec.gov/Archives/edgar/data/895419/000089541925000110/
+Wolfspeed,2025,inventory,435.4,balance,match,Inventories,435.4,https://www.sec.gov/Archives/edgar/data/895419/000089541925000110/
