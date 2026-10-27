@@ -1,8 +1,24 @@
 # SemiFin: Semiconductor Financial Health Analyzer
 
-**Financial Ratio Analysis and Distress Prediction of Semiconductor Companies: A Comparative Study of Nvidia, AMD, Intel and Wolfspeed Using SEC XBRL Data**
+Financial ratio analysis and distress prediction for U.S. semiconductor companies using SEC filing data, with Nvidia, AMD, Intel and Wolfspeed as case studies.
 
-FADS mini project. The full plan is in [docs/PROJECT_GUIDE.md](docs/PROJECT_GUIDE.md), and every data decision is recorded in [docs/data_log.md](docs/data_log.md).
+Mini project for Financial Analysis and Decision Science (FADS), DJ Sanghvi College of Engineering, Mumbai.
+
+> Work in progress.
+
+## What this project does
+
+- Collects annual financial statements of semiconductor companies (SIC code 3674) from the SEC Financial Statement Data Sets
+- Cleans the data and computes financial ratios (liquidity, leverage, profitability, efficiency, growth)
+- Compares the financial trends of Nvidia, AMD, Intel and Wolfspeed
+- Trains machine learning models to predict financial distress one year ahead
+- Presents the results in a dashboard and a report
+
+## Tech stack
+
+Python (pandas, scikit-learn, matplotlib), Power BI or Tableau, Git
+
+Full plan: [docs/PROJECT_GUIDE.md](docs/PROJECT_GUIDE.md). Every data decision is recorded in [docs/data_log.md](docs/data_log.md).
 
 ## Setup
 
