@@ -74,3 +74,17 @@ Note: company colours were checked for colour-blind readability with a palette v
 30. Zmijewski, M. E. (1984). Methodological issues related to the estimation of financial distress prediction models. *Journal of Accounting Research*, 22 (Supplement), 59–82. https://doi.org/10.2307/2490859.
 31. Shumway, T. (2001). Forecasting bankruptcy more accurately: A simple hazard model. *The Journal of Business*, 74(1), 101–124. https://doi.org/10.1086/209665.
 32. Barboza, F., Kimura, H., & Altman, E. (2017). Machine learning models and bankruptcy prediction. *Expert Systems with Applications*, 83, 405–417. https://doi.org/10.1016/j.eswa.2017.04.006.
+
+## Teacher-format financial analysis report (Nvidia, 28 Oct 2026)
+
+Used in `report/final/SemiFin - A Semiconductor Financial Analysis Report.docx` (built by `src/finance_report.py` and `src/build_finance_docx.js`).
+
+33. NVIDIA Corp. Form 10-K for fiscal years ended January 2025 and January 2026, accession numbers 0001045810-25-000023 and 0001045810-26-000021, read from the SEC Financial Statement Data Sets (2025 Q1 and 2026 Q1 files). Full balance sheet, income statement and cash flow lines.
+34. Board of Governors of the Federal Reserve System. *Market Yield on U.S. Treasury Securities at 10-Year Constant Maturity (DGS10)*, FRED. https://fred.stlouisfed.org/series/DGS10 (5.00% on 26 Oct 2026; accessed 28 Oct 2026). Risk-free rate.
+35. Yahoo Finance. *NVIDIA Corporation (NVDA)*. https://finance.yahoo.com/quote/NVDA/ (beta 5Y monthly 2.22; market cap 5.22T as of 26 Oct 2026; accessed 28 Oct 2026).
+36. Damodaran, A. *Damodaran Online*, implied ERP on 1 Oct 2026 = 4.20% (trailing 12-month cash yield, adjusted payout). https://pages.stern.nyu.edu/~adamodar/New_Home_Page/home.htm (accessed 28 Oct 2026).
+37. Durand, D. (1952). Costs of debt and equity funds for business: Trends and problems of measurement. In *Conference on Research in Business Finance* (pp. 215–262). NBER. https://www.nber.org/books-and-chapters/conference-research-business-finance/costs-debt-and-equity-funds-business-trends-and-problems-measurement. NI and NOI approaches.
+38. Modigliani, F., & Miller, M. H. (1958). The cost of capital, corporation finance and the theory of investment. *American Economic Review*, 48(3), 261–297. https://www.jstor.org/stable/1809766 (details checked via the AEA-hosted copy listing and search results; Crossref has no DOI record).
+39. Modigliani, F., & Miller, M. H. (1963). Corporate income taxes and the cost of capital: A correction. *American Economic Review*, 53(3), 433–443 (details checked via a Scinapse record).
+40. Hamada, R. S. (1972). The effect of the firm's capital structure on the systematic risk of common stocks. *The Journal of Finance*, 27(2), 435–452. https://doi.org/10.1111/j.1540-6261.1972.tb00971.x (Crossref-checked).
+41. Sharpe, W. F. (1964). Capital asset prices: A theory of market equilibrium under conditions of risk. *The Journal of Finance*, 19(3), 425–442. https://doi.org/10.1111/j.1540-6261.1964.tb02865.x (Crossref-checked).
